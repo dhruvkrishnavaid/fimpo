@@ -1,0 +1,8 @@
+{
+  "name": "Fimpo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "6e9e4f42"
+}
