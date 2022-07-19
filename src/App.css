@@ -1,0 +1,14 @@
+ion-tab-button.home.tab-selected,
+ion-tab-button.home.tab-selected:hover {
+  color: #3b82f6;
+}
+
+ion-tab-button.tasks.tab-selected,
+ion-tab-button.tasks.tab-selected:hover {
+  color: #f63ba2;
+}
+
+ion-tab-button.tips.tab-selected,
+ion-tab-button.tips.tab-selected:hover {
+  color: #f6b600;
+}
