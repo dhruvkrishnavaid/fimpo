@@ -1,0 +1,44 @@
+@media (prefers-color-scheme: dark) {
+  a {
+    --ion-color-primary: #3b82f6;
+  }
+}
+
+ion-tab-button.home.tab-selected,
+ion-tab-button.home.tab-selected:hover {
+  color: #3b82f6;
+}
+
+ion-tab-button.matrix.tab-selected,
+ion-tab-button.matrix.tab-selected:hover {
+  color: #f6b600;
+}
+
+ion-tab-button.stopwatch.tab-selected,
+ion-tab-button.stopwatch.tab-selected:hover {
+  color: #f63ba2;
+}
+
+ion-tab-button.user.tab-selected,
+ion-tab-button.user.tab-selected:hover {
+  color: #10b981;
+}
+
+.red.alert-button.sc-ion-alert-ios {
+  color: var(--ion-color-danger);
+}
+
+.blue.alert-button.sc-ion-alert-ios {
+  color: #3b82f6;
+}
+
+ion-alert.sc-ion-alert-ios-h.sc-ion-alert-ios-s {
+  backdrop-filter: blur(0.25rem);
+}
+
+.toast {
+  --border-color: var(--ion-color-danger);
+  --border-radius: 1rem;
+  --border-style: solid;
+  --border-width: 1px;
+}

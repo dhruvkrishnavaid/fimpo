@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Fimpo</string>
+    <string name="title_activity_main">Fimpo</string>
+    <string name="package_name">com.dkv.fimpo</string>
+    <string name="custom_url_scheme">com.dkv.fimpo</string>
+</resources>

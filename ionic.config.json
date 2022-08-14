@@ -1,0 +1,7 @@
+{
+  "name": "Fimpo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
