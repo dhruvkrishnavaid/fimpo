@@ -8,10 +8,12 @@ import {
   useIonAlert,
 } from "@ionic/react";
 import {
+  bulb,
   chevronForward,
   compass,
   heart,
   informationCircle,
+  logoGithub,
   logOut,
   sparkles,
 } from "ionicons/icons";
@@ -61,7 +63,7 @@ const User: React.FC = () => {
             <a href="/Tips" className="w-full">
               <button className="w-full h-full mb-3 flex justify-between items-center">
                 <div className="flex items-center">
-                  <IonIcon icon={sparkles} className="mr-2 w-6 h-6" />
+                  <IonIcon icon={bulb} className="mr-2 w-6 h-6" />
                   <div className="text-left">Tips</div>
                 </div>
                 <IonIcon icon={chevronForward} />
@@ -89,7 +91,7 @@ const User: React.FC = () => {
             </a>
             <hr className="bg-gray-200 dark:bg-gray-500 rounded-full" />
             <a href="/MoreInfo">
-              <button className="w-full h-full mt-3 flex justify-between items-center">
+              <button className="w-full h-full my-3 flex justify-between items-center">
                 <div className="flex items-center">
                   <IonIcon icon={informationCircle} className="mr-2 w-6 h-6" />
                   <div className="text-left">More Information</div>
@@ -97,6 +99,59 @@ const User: React.FC = () => {
                 <IonIcon icon={chevronForward} />
               </button>
             </a>
+            <hr className="bg-gray-200 dark:bg-gray-500 rounded-full" />
+            <button
+              className="w-full h-full my-3 text-blue-500 flex justify-between items-center"
+              onClick={() =>
+                presentAlert({
+                  header: "Got a suggestion?",
+                  message: "Mail it to us straight away.",
+                  buttons: [
+                    {
+                      text: "Later",
+                      role: "cancel",
+                      cssClass: "red",
+                    },
+                    {
+                      text: "Let's go!",
+                      handler: () => {
+                        window.open(
+                          "mailto:officialfimpo@gmail.com",
+                          "_system",
+                          "location=yes",
+                        );
+                      },
+                      cssClass: "blue",
+                    },
+                  ],
+                  mode: "ios",
+                  animated: true,
+                  translucent: true,
+                  cssClass: "font-sans",
+                })
+              }>
+              <div className="flex items-center">
+                <IonIcon icon={sparkles} className="mr-2 w-6 h-6" />
+                <div className="text-left">Feedback</div>
+              </div>
+              <IonIcon icon={chevronForward} />
+            </button>
+            <hr className="bg-gray-200 dark:bg-gray-500 rounded-full" />
+            <button
+              className="w-full h-full mt-3 text-blue-500 flex justify-between items-center"
+              onClick={() =>
+                window.open(
+                  "https://github.com/dhruvkrishnavaid/fimpo",
+                  "_system",
+                  "location=yes",
+                )
+              }>
+              <div className="flex items-center">
+                <IonIcon icon={logoGithub} className="mr-2 w-6 h-6" />
+                <div className="text-left">View Source</div>
+              </div>
+              <IonIcon icon={chevronForward} />
+            </button>
           </IonCardContent>
         </IonCard>
         <div className="mx-5 my-4 font-sans">
