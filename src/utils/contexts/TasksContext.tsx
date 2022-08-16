@@ -1,5 +1,5 @@
 import { createContext, useEffect, useReducer } from "react";
-import { loggerReducer } from "../functions";
+import { reducer } from "../functions";
 import { initialState } from "./State";
 
 const TasksContext = createContext(initialState as any);
@@ -23,7 +23,7 @@ const TasksContextProvider: React.FC<
     ...persistedState,
   };
 
-  const [state, dispatch] = useReducer(loggerReducer, fullState);
+  const [state, dispatch] = useReducer(reducer, fullState);
   useEffect(() => {
     window.localStorage["persistedState"] = JSON.stringify({
       tasks: state.tasks,

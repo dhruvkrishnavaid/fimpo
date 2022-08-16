@@ -51,7 +51,9 @@ const TaskList: React.FC<{ list: any }> = (props: any) => {
             <div className="w-full flex flex-col">
               <div
                 className={
-                  task.completed ? "line-through font-semibold" : "font-semibold"
+                  task.completed
+                    ? "line-through font-semibold"
+                    : "font-semibold"
                 }>
                 {task.title}
               </div>
@@ -63,12 +65,18 @@ const TaskList: React.FC<{ list: any }> = (props: any) => {
                 }>
                 {task.description}
               </div>
-              <div className="text-gray-500 dark:text-gray-400">{task.date}</div>
+              <div className="text-gray-500 dark:text-gray-400">
+                {task.date}
+              </div>
             </div>
             <div className="flex items-center justify-between w-12">
               <IonIcon
                 icon={task.completed ? checkmarkDone : checkmark}
-                className={task.completed ? "text-lime-600" : "text-gray-500  dark:text-gray-300"}
+                className={
+                  task.completed
+                    ? "text-lime-600"
+                    : "text-gray-500  dark:text-gray-300"
+                }
                 size="large"
                 onClick={() => {
                   list[key].completed = !list[key].completed;

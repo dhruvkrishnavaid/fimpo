@@ -6,8 +6,7 @@
   font-family: "Comfortaa";
   font-display: swap;
   unicode-range: U+20-7F;
-  src: local(""),
-    url("../fonts/Comfortaa.woff2") format("woff2"),
+  src: local(""), url("../fonts/Comfortaa.woff2") format("woff2"),
     url("../fonts/Comfortaa.woff") format("woff"),
     url("../fonts/Comfortaa.ttf") format("truetype");
 }

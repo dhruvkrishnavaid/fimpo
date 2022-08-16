@@ -31,6 +31,9 @@ ion-tab-button.user.tab-selected:hover {
 .blue.alert-button.sc-ion-alert-ios {
   color: #3b82f6;
 }
+.alert-button.ion-focused.sc-ion-alert-ios, .alert-button.ion-activated.sc-ion-alert-ios {
+  background-color: transparent;
+}
 
 ion-alert.sc-ion-alert-ios-h.sc-ion-alert-ios-s {
   backdrop-filter: blur(0.25rem);

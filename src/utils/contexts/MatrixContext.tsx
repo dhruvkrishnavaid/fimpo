@@ -1,5 +1,5 @@
 import { createContext, useEffect, useReducer } from "react";
-import { loggerReducer } from "../functions";
+import { reducer } from "../functions";
 import { initialMatrixState } from "./State";
 
 const MatrixContext = createContext(initialMatrixState as any);
@@ -25,7 +25,7 @@ const MatrixContextProvider: React.FC<
     ...persistedMatrixState,
   };
 
-  const [state, dispatch] = useReducer(loggerReducer, fullState);
+  const [state, dispatch] = useReducer(reducer, fullState);
   useEffect(() => {
     window.localStorage["persistedMatrixState"] = JSON.stringify({
       UrgentAndImportant: state.UrgentAndImportant,

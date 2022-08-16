@@ -37,8 +37,8 @@ const User: React.FC = () => {
         </div>
         <a
           href="/UserInfo"
-          className="h-fit w-full px-5 flex flex-row items-center justify-between font-sans">
-          <IonCard mode="ios" className="rounded-full h-fit w-fit mx-auto my-0">
+          className="h-fit w-full px-5 flex flex-row items-center justify-evenly font-sans">
+          <IonCard mode="ios" className="rounded-full h-fit w-fit mx-0 my-0">
             <IonCardContent className="w-fit h-fit p-0 rounded-full border-2 dark:border-gray-500">
               <img
                 src={state.user.imageUrl}

@@ -1,9 +1,4 @@
-import {
-  IonCard,
-  IonCardContent,
-  IonContent,
-  IonPage,
-} from "@ionic/react";
+import { IonCard, IonCardContent, IonContent, IonPage } from "@ionic/react";
 import { useContext } from "react";
 import { MatrixContext } from "../utils/contexts/MatrixContext";
 
