@@ -10,7 +10,7 @@
     "ionic:serve": "vite --host $HOST --port $PORT"
   },
   "dependencies": {
-    "@awesome-cordova-plugins/core": "^5.44.0",
+    "@awesome-cordova-plugins/core": "^5.45.0",
     "@awesome-cordova-plugins/google-plus": "^5.45.0",
     "@capacitor/android": "4.0.1",
     "@capacitor/app": "4.0.1",
