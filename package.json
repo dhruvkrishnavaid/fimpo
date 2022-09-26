@@ -37,7 +37,7 @@
     "@types/react-router": "^5.1.18",
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^2.1.0",
-    "autoprefixer": "10.4.8",
+    "autoprefixer": "10.4.12",
     "cordova-res": "0.15.4",
     "eslint-config-react-app": "^7.0.1",
     "jest-canvas-mock": "^2.4.0",
