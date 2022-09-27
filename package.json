@@ -12,7 +12,7 @@
   "dependencies": {
     "@awesome-cordova-plugins/core": "^5.45.0",
     "@awesome-cordova-plugins/google-plus": "^5.45.0",
-    "@capacitor/android": "4.1.0",
+    "@capacitor/android": "4.2.0",
     "@capacitor/app": "4.0.1",
     "@capacitor/core": "4.1.0",
     "@capacitor/haptics": "4.0.1",
@@ -37,7 +37,7 @@
     "@types/react-router": "^5.1.18",
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^2.1.0",
-    "autoprefixer": "10.4.8",
+    "autoprefixer": "10.4.12",
     "cordova-res": "0.15.4",
     "eslint-config-react-app": "^7.0.1",
     "jest-canvas-mock": "^2.4.0",
