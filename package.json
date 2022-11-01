@@ -19,7 +19,7 @@
     "@capacitor/keyboard": "4.0.1",
     "@capacitor/status-bar": "4.0.1",
     "@ionic/react": "^6.2.1",
-    "@ionic/react-router": "^6.2.8",
+    "@ionic/react-router": "^6.3.3",
     "cordova-plugin-googleplus": "^8.5.2",
     "ionicons": "^6.0.2",
     "lottie-react": "^2.3.1",
